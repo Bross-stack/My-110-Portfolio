@@ -323,18 +323,19 @@ body {
 .skills-container {
     display: flex;
     justify-content: center;
-    gap: 15px;
-    max-width: 1200px;
+    gap: 10px;
+    max-width: 1000px;
     margin: 0 auto;
+    flex-wrap: nowrap;
 }
 
 .skill-box {
     background: white;
     border: 1px solid #f0ccd8;
-    border-radius: 15px;
-    padding: 20px 15px;
-    width: 150px;
-    min-height: 120px;
+    border-radius: 12px;
+    padding: 15px 10px;
+    width: 140px;
+    min-height: 110px;
     text-align: center;
 }
 .skill-box h3 {
