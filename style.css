@@ -702,3 +702,46 @@ footer {
 .project-btn:hover {
     background: #b84d73;
 }
+
+
+
+/*ACTIVITY 5: EDUCATION */
+
+.education {
+    padding: 60px 8%;
+    text-align: center;
+}
+
+.education h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.table-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    overflow-x: auto;
+}
+
+.education table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+.education th,
+.education td {
+    border: 1px solid #f0ccd8;
+    padding: 15px;
+    text-align: left;
+}
+
+.education th {
+    background: #d96c91;
+    color: white;
+}
+
+.education tbody tr:nth-child(even) {
+    background: #fff7fa;
+}
