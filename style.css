@@ -745,3 +745,26 @@ footer {
 .education tbody tr:nth-child(even) {
     background: #fff7fa;
 }
+
+
+/* Activity 6: Navigation Menu */
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 25px;
+    padding: 20px 5%;
+    background-color: #fff7fa;
+    flex-wrap: wrap;
+}
+
+.navbar a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #d96c91;
+}
