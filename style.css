@@ -619,3 +619,86 @@ footer {
     }
 
 }
+
+
+
+/*  ACTIVITY 4: PROJECTS */
+
+.projects {
+    padding: 60px 3%;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.projects h2 {
+    font-size: 32px;
+    margin-bottom: 35px;
+}
+
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+}
+
+
+.project-card {
+    background: white;
+    border: 1px solid #f0ccd8;
+    border-radius: 12px;
+    padding: 20px;
+    width: 280px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+
+.project-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 8px;
+    background: #fff7fa;
+}
+
+
+.project-card h3 {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.project-card p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.project-card .technologies {
+    margin-top: 5px;
+}
+
+.project-btn {
+    display: inline-block;
+    margin-top: auto;
+    padding: 10px 18px;
+    background: #d96c91;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.project-btn:hover {
+    background: #b84d73;
+}
