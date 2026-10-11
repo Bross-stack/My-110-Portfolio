@@ -768,3 +768,65 @@ footer {
 .navbar a:hover {
     color: #d96c91;
 }
+
+
+
+/* Activity 7: Contact Form */
+.contact-form-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 25px;
+    text-align: left;
+    background-color: #fff;
+    border: 1px solid #f0ccd8;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.contact-form-container h3 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #d96c91;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form label {
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #e5b6c6;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 15px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #d96c91;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #c6537b;
+}
